@@ -5,7 +5,20 @@ namespace Tyuiu.ShabalinaYP.Sprint2.Task5.V2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DataService ds = new DataService();
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("Введите номер месяца:");
+            int value = Convert.ToInt32(Console.ReadLine());
+            string res = ds.FindMonthSeason(value);
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("Значение: " + res);
+            Console.ReadKey();
         }
     }
 }
