@@ -51,8 +51,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.ShabalinaYP.Sprint2.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.ShabalinaYP.Sprint2.Task5.V2.Test", "Tyuiu.ShabalinaYP.Sprint2.Task5.V2.Test\Tyuiu.ShabalinaYP.Sprint2.Task5.V2.Test.csproj", "{5F8547E6-AF83-4870-B01C-7B3EB1881CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{FDF3CAEB-6CC5-49C5-8EAC-29955C04D4EE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,10 +129,6 @@ Global
 		{5F8547E6-AF83-4870-B01C-7B3EB1881CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F8547E6-AF83-4870-B01C-7B3EB1881CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F8547E6-AF83-4870-B01C-7B3EB1881CD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDF3CAEB-6CC5-49C5-8EAC-29955C04D4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDF3CAEB-6CC5-49C5-8EAC-29955C04D4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDF3CAEB-6CC5-49C5-8EAC-29955C04D4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDF3CAEB-6CC5-49C5-8EAC-29955C04D4EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
