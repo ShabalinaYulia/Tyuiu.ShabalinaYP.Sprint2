@@ -24,7 +24,7 @@ namespace Tyuiu.ShabalinaYP.Sprint2.Task6.V14.Test
 
             string res = ds.FindDayName(k, d);
 
-            string wait = "воскресенье";
+            string wait = "Воскресенье";
 
             Assert.IsTrue(res == wait);
 
